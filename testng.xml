@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="https://www.demoblaze.com/"></parameter>
+  
+  <test name="HomePage Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Signup Test">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.SignupPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test Login">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="Test Product">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.ProductPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+ <test name="Test Cart">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.CartPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test name="Test Order">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="test.OrderPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
