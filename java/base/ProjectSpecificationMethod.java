@@ -46,9 +46,9 @@ public class ProjectSpecificationMethod extends Utility{
 	    driver.get(url);
 	}
 	
-	//@AfterMethod
-	//public void closeBrowser() {
+	@AfterMethod
+	public void closeBrowser() {
 		
-	//	browserclose();
+		browserclose();
 	}
 
